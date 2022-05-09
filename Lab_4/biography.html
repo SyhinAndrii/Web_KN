@@ -3,87 +3,9 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/biography.css">
   <title>Біографія</title>
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-
-    h1 {
-      text-align: center;
-      font-size: 22px;
-    }
-
-    .back_to_main {
-      font-style: italic;
-    }
-
-    h3 {
-      text-align: center;
-    }
-
-    .nav a {
-      background-color: blue;
-      color: white;
-      text-decoration: none;
-      padding: 5px;
-      margin: 5px 5px;
-      display: block;
-      width: 200px;
-      border: 2px black solid;
-    }
-
-    .nav a:hover {
-      background-color: magenta;
-      color: black;
-    }
-
-    .nav a:active {
-      background-color: yellow;
-      color: red;
-    }
-
-    article {
-      font-size: 1.2em;
-    }
-
-    article>h2 {
-      font-size: 1.2em;
-    }
-
-
-
-    article:nth-of-type(1) {
-      background-color: aqua;
-      color: brown;
-    }
-
-    article:nth-of-type(2) {
-      background-color: blue;
-      color: white;
-    }
-
-    article:nth-of-type(3) {
-      background-color: chartreuse;
-      color: darkblue;
-    }
-
-    article:nth-of-type(4) {
-      background-color: darkred;
-      color: olive;
-    }
-
-    article:nth-of-type(5) {
-      background-color: black;
-      color: yellow;
-    }
-    .go_nav{
-      font-weight: 600;
-    }
-    a:last-of-type{
-      text-transform: uppercase;
-    }
-  </style>
 </head>
 
 <body>
@@ -101,67 +23,89 @@
       <a href="#university">Університет</a>
     </div>
 
-    <article id="base">
-      <h2>Базова інформація</h2>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati error perferendis ullam ipsa expedita
-        molestias tempora consequatur doloremque et, aspernatur commodi provident velit vel, numquam odio fuga? Sed
-        deleniti eos placeat ipsum minus voluptatem, dolor, nemo porro quasi obcaecati possimus, aspernatur laboriosam
-        repellat delectus maxime sit amet autem laborum libero dolore repudiandae dicta beatae recusandae culpa!
-        Architecto nam esse incidunt libero ducimus quae natus est earum tempora? Hic animi inventore, deserunt facilis
-        nostrum reprehenderit unde quisquam alias totam recusandae sed.</p>
-    </article>
-    <a class="go_nav" href="#navigate">до змісту</a>
-    <article id="childhood">
-      <h2>Дитинство</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, possimus laborum unde, eligendi expedita
-        facere repellat laudantium voluptate molestias omnis cumque dolorum non ex adipisci culpa hic aperiam quas est
-        voluptatibus fuga vero. At, tenetur quod amet dolorum aperiam ab quaerat similique incidunt ea quidem? Iure iste
-        veritatis nostrum quae ea! Maxime aperiam eaque voluptatem, reiciendis facilis ratione deserunt. Libero deleniti
-        dolor nobis explicabo nihil tempore, ipsum reiciendis pariatur consectetur odio nemo id quisquam, sequi
-        deserunt. Voluptatibus ad ipsum alias?</p>
-    </article>
-    <a class="go_nav" href="#navigate">до змісту</a>
-    <article id="school">
-      <h2>Шкільні роки</h2>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut consequuntur at asperiores unde est eos fugit
-        enim, deleniti incidunt totam perspiciatis esse optio nostrum quas architecto placeat vitae! Beatae, dolor.
-        Vitae repellat facilis consectetur nulla nostrum placeat voluptas maxime aliquid modi fugiat, aut quisquam
-        beatae voluptate rerum ipsum eligendi quis saepe porro tempore asperiores ipsa! Facere ea, doloribus aspernatur
-        laboriosam quaerat dolor iusto amet nesciunt, in pariatur voluptates quasi distinctio hic iure sunt doloremque
-        esse at, eaque consectetur quo maiores.</p>
-    </article>
-    <a class="go_nav" href="#navigate">до змісту</a>
-    <article id="out_of_school">
-      <h2>Поза школою</h2>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem praesentium voluptatum dolores, molestiae quasi,
-        debitis rerum eius dolore ea nesciunt ab harum vitae! Repellat quod error, numquam nisi tenetur sed quas commodi
-        nemo deserunt impedit? Soluta dolore quos adipisci quo ipsam praesentium ratione. Quam fuga veritatis tempore
-        laboriosam? Ipsam, dolore? Amet, voluptatum assumenda labore tempore similique reprehenderit distinctio
-        explicabo, aspernatur voluptatibus deserunt sequi minus? Ex omnis soluta quam, modi tempora laboriosam
-        blanditiis repellendus rem accusantium, aut earum pariatur, qui exercitationem.</p>
+    <div class="biography">
+      <article class="item" id="base">
+        <div class="wrapper">
+          <h2>Базова інформація</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati error perferendis ullam ipsa expedita
+            molestias tempora consequatur doloremque et, aspernatur commodi provident velit vel, numquam odio fuga? Sed
+            deleniti eos placeat ipsum minus voluptatem, dolor, nemo porro quasi obcaecati possimus, aspernatur
+            laboriosam
+            repellat delectus maxime sit amet autem laborum libero dolore repudiandae dicta beatae recusandae culpa!
+            Architecto nam esse incidunt libero ducimus quae natus est earum tempora? Hic animi inventore, deserunt
+            facilis
+            nostrum reprehenderit unde quisquam alias totam recusandae sed.</p>
+        </div>
+        <a class="go_nav" href="#navigate">до змісту</a>
+      </article>
+      <article class="item" id="childhood">
+        <div class="wrapper">
+          <h2>Дитинство</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, possimus laborum unde, eligendi expedita
+            facere repellat laudantium voluptate molestias omnis cumque dolorum non ex adipisci culpa hic aperiam quas
+            est
+            voluptatibus fuga vero. At, tenetur quod amet dolorum aperiam ab quaerat similique incidunt ea quidem? Iure
+            iste
+            veritatis nostrum quae ea! Maxime aperiam eaque voluptatem, reiciendis facilis ratione deserunt. Libero
+            deleniti
+            dolor nobis explicabo nihil tempore, ipsum reiciendis pariatur consectetur odio nemo id quisquam, sequi
+            deserunt. Voluptatibus ad ipsum alias?</p>
+        </div>
+        <a class="go_nav" href="#navigate">до змісту</a>
+      </article>
 
-    </article>
-    <a class="go_nav" href="#navigate">до змісту</a>
-    <article id="university">
-      <h2>Університет</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptates, libero aperiam obcaecati placeat rem
-        provident praesentium voluptatum quas quo magnam modi blanditiis. Veniam blanditiis laborum nobis necessitatibus
-        aperiam beatae suscipit aliquam ea id! Voluptates rerum aspernatur cumque repudiandae! Omnis, corporis quod.
-        Magni rem non neque ipsam, nam commodi nostrum enim, beatae veniam, maiores deleniti? Hic consequatur saepe quos
-        dicta sit laudantium magni commodi cum rerum ad placeat quae deleniti, velit optio dolore beatae neque at
-        incidunt consequuntur, eum perferendis!</p>
+      <article class="item" id="school">
+        <div class="wrapper">
+          <h2>Шкільні роки</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut consequuntur at asperiores unde est eos fugit
+            enim, deleniti incidunt totam perspiciatis esse optio nostrum quas architecto placeat vitae! Beatae, dolor.
+            Vitae repellat facilis consectetur nulla nostrum placeat voluptas maxime aliquid modi fugiat, aut quisquam
+            beatae voluptate rerum ipsum eligendi quis saepe porro tempore asperiores ipsa! Facere ea, doloribus
+            aspernatur
+            laboriosam quaerat dolor iusto amet nesciunt, in pariatur voluptates quasi distinctio hic iure sunt
+            doloremque
+            esse at, eaque consectetur quo maiores.</p>
+        </div>
+        <a class="go_nav" href="#navigate">до змісту</a>
+      </article>
 
-    </article>
-    <a class="go_nav" href="#navigate">до змісту</a>
+      <article class="item" id="out_of_school">
+        <div class="wrapper">
+          <h2>Поза школою</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem praesentium voluptatum dolores, molestiae
+            quasi,
+            debitis rerum eius dolore ea nesciunt ab harum vitae! Repellat quod error, numquam nisi tenetur sed quas
+            commodi
+            nemo deserunt impedit? Soluta dolore quos adipisci quo ipsam praesentium ratione. Quam fuga veritatis
+            tempore
+            laboriosam? Ipsam, dolore? Amet, voluptatum assumenda labore tempore similique reprehenderit distinctio
+            explicabo, aspernatur voluptatibus deserunt sequi minus? Ex omnis soluta quam, modi tempora laboriosam
+            blanditiis repellendus rem accusantium, aut earum pariatur, qui exercitationem.</p>
+        </div>
+        <a class="go_nav" href="#navigate">до змісту</a>
+      </article>
+
+      <article class="item" id="university">
+        <div class="wrapper">
+          <h2>Університет</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptates, libero aperiam obcaecati placeat
+            rem
+            provident praesentium voluptatum quas quo magnam modi blanditiis. Veniam blanditiis laborum nobis
+            necessitatibus
+            aperiam beatae suscipit aliquam ea id! Voluptates rerum aspernatur cumque repudiandae! Omnis, corporis quod.
+            Magni rem non neque ipsam, nam commodi nostrum enim, beatae veniam, maiores deleniti? Hic consequatur saepe
+            quos
+            dicta sit laudantium magni commodi cum rerum ad placeat quae deleniti, velit optio dolore beatae neque at
+            incidunt consequuntur, eum perferendis!</p>
+        </div>
+        <a class="go_nav" href="#navigate">до змісту</a>
+      </article>
+    </div>
+
     <hr>
     <a href="#go_up">Уверх</a>
 
-
-
-
     <section>
-
-
 
       <footer>
 
