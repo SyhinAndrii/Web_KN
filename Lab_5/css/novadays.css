@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    font-family: Lobster,sans-serif;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 22px;
+  }
+  .back_to_main {
+    font-style: italic;
+  }
+  h2{
+    text-align: center;
+  }
+  ul>li:nth-child(odd){
+    background-color: darkgray;
+    color:maroon;
+  }
+  ol>li:nth-child(3){ 
+    cursor: pointer;
+  }
+  ol>li:nth-child(5){
+    cursor: pointer;
+  }
+  ol>li:nth-child(4){
+    background-color: yellow;
+    color: black  ;
+  }
+
+  /* @media (min-width: 993px){
+    .container{
+      display: flex;
+      gap:10px;
+    }
+    .container_item{
+      flex: 1;
+    }
+  }  */
+  
