@@ -1,0 +1,27 @@
+
+.navbar-brand{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.navbar-toggler{
+    font-size: 1.7rem;
+}
+
+.navbar{
+    padding-bottom: 15px;
+}
+.navbar li{
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+
+.wrapper{
+    background-color: lightgrey;
+}
+.to_top{
+    font-size: 18px;
+    color: brown;
+}
