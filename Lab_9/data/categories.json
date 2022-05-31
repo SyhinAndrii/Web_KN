@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "name":"Category A",
+        "shortname":"A",
+        "notes":" Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis nihil incidunt obcaecati adipisci provident, similique animi consequatur ab minus non! Id aspernatur nam obcaecati voluptatibus suscipit neque esse, minus voluptas."
+    },
+    {
+        "id":2,
+        "name":"Category B",
+        "shortname":"B",
+        "notes":" Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis nihil incidunt obcaecati adipisci provident, similique animi consequatur ab minus non! Id aspernatur nam obcaecati voluptatibus suscipit neque esse, minus voluptas."
+    },
+    {
+        "id":3,
+        "name":"Category C",
+        "shortname":"C",
+        "notes":" Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis nihil incidunt obcaecati adipisci provident, similique animi consequatur ab minus non! Id aspernatur nam obcaecati voluptatibus suscipit neque esse, minus voluptas."
+    },
+    {
+        "id":4,
+        "name":"Category D",
+        "shortname":"D",
+        "notes":" Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis nihil incidunt obcaecati adipisci provident, similique animi consequatur ab minus non! Id aspernatur nam obcaecati voluptatibus suscipit neque esse, minus voluptas."
+    }
+]

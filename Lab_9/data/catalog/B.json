@@ -1,0 +1,33 @@
+{"catalog_items":
+    [{  "id":1,
+        "name":"Product 1",
+        "shortname":"B1",
+        "description":"Laptop battery number of elements: 6 capacity: 5200 mAh voltage: 11.1 B compatibility: Asus A43, A43B, A43BR, A43BY.",
+        "price":21
+    },
+    {  "id":1,
+        "name":"Product 2",
+        "shortname":"B2",
+        "description":"Laptop battery number of elements: 6 capacity: 5200 mAh voltage: 11.1 B compatibility: Asus A43, A43B, A43BR, A43BY.",
+        "price":21
+    },
+    {  "id":1,
+        "name":"Product 3",
+        "shortname":"B3",
+        "description":"Laptop battery number of elements: 6 capacity: 5200 mAh voltage: 11.1 B compatibility: Asus A43, A43B, A43BR, A43BY.",
+        "price":21
+    },
+    {  "id":1,
+        "name":"Product 4",
+        "shortname":"B4",
+        "description":"Laptop battery number of elements: 6 capacity: 5200 mAh voltage: 11.1 B compatibility: Asus A43, A43B, A43BR, A43BY.",
+        "price":21
+    },
+    {  "id":1,
+        "name":"Product 5",
+        "shortname":"B5",
+        "description":"Laptop battery number of elements: 6 capacity: 5200 mAh voltage: 11.1 B compatibility: Asus A43, A43B, A43BR, A43BY.",
+        "price":21
+    }
+    ],
+        "category":{"name":"Category B","shortname":"B"}}
